@@ -347,6 +347,10 @@ class Strahler(QObject):
 
         selectedFeature = selectedFeatures[0]
 
+        if selectedFeature.geometry().isMultipart():
+            self.displayErrorMessage( self.tr("Multipart geometries are not handled. Use the 'Multipart to Singleparts' tool before launching this plugin.") )
+            return False, None
+
         # Build the spatial index for faster lookup.
         featureList = list( self.layer.getFeatures() )
         self.spatialIdx = QgsSpatialIndex()

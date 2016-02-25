@@ -29,12 +29,12 @@
         <translation>Un seul segment racine peut être sélectionné</translation>
     </message>
     <message>
-        <location filename="../strahler.py" line="389"/>
+        <location filename="../strahler.py" line="393"/>
         <source>The selected segment is not a root segment</source>
         <translation>Le segment sélectionné n&apos;est pas une racine</translation>
     </message>
     <message>
-        <location filename="../strahler.py" line="393"/>
+        <location filename="../strahler.py" line="397"/>
         <source>The selected segment is not connected to a network</source>
         <translation>Le segment sélectionné n&apos;est pas connecté à un réseau</translation>
     </message>
@@ -43,13 +43,18 @@
         <source>Continue anyway? Existing values will be lost.</source>
         <translation>Continuer quand même ? Les valeurs existantes seront perdues.</translation>
     </message>
+    <message>
+        <location filename="../strahler.py" line="351"/>
+        <source>Multipart geometries are not handled. Use the &apos;Multipart to Singleparts&apos; tool before launching this plugin.</source>
+        <translation>Ce plugin ne gère pas les géométries multiples. Veuillez utiliser l&apos;outil &apos;Morceau multiple vers morceaux uniques&apos; au préalable.</translation>
+    </message>
 </context>
 <context>
     <name>StrahlerDialogBase</name>
     <message>
         <location filename="../strahler_dialog_base.ui" line="14"/>
         <source>Strahler</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Strahler</translation>
     </message>
     <message>
         <location filename="../strahler_dialog_base.ui" line="26"/>
