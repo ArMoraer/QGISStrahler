@@ -1,0 +1,41 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+[general]
+name=Strahler
+qgisMinimumVersion=2.0
+description=This plugin computes the Strahler number of a line network.
+version=0.1.0
+author=Alexandre Delahaye
+email=menoetios@gmail.com
+
+about=This plugin adds a user-specified attribute to the shapefile containing the analyzed line network. This attribute will contain the Strahler number (https://en.wikipedia.org/wiki/Strahler_number) of each segment (=line) of the network. User must first select the root of the network.
+
+tracker=https://github.com/ArMoraer/QGISStrahler/issues
+repository=https://github.com/ArMoraer/QGISStrahler
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=layers, vector, line
+
+homepage=https://github.com/ArMoraer/QGISStrahler
+category=Vector
+icon=img/icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
